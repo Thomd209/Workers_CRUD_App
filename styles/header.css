@@ -1,0 +1,27 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.header {
+    width: 100%;
+    background-color: rgb(12, 10, 10);
+}
+
+.header__logo {
+    display: inline-block;
+    padding: 1rem;
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+.header__logo:hover {
+    text-decoration: none;
+    color: #fff;
+}

@@ -1,0 +1,12 @@
+.footer {
+    width: 100%;
+    background-color: rgb(12, 10, 10);
+    flex: 0 0 auto;
+}
+
+.footer_copyright {
+    display: inline-block;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #fff;
+}

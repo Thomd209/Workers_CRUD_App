@@ -1,0 +1,23 @@
+.content {
+    flex: 1 0 auto;
+}
+
+.form_update_worker_name {
+    display: block;
+    margin: 10px 0 0 1rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.form_update_worker {
+    margin: 10px 0 0 1rem;
+}
+
+.form_update_worker__update_worker_input {
+    display: block;
+    width: 10rem;
+}
+
+.form__empty_update_field {
+    color: red;
+}
