@@ -1,4 +1,6 @@
 <?php
+    //Подключение к БД
+    
     $host = 'localhost';
     $db = 'workers';
     $user = 'Thomd209';

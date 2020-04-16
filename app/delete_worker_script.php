@@ -1,4 +1,6 @@
 <?php 
+    //Удаление работника
+
     if (isset($_GET['delete'])) {
         delete_worker($_GET['delete']);
     }

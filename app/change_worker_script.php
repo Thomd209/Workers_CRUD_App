@@ -1,4 +1,6 @@
 <?php
+    //Проверка полей формы изменения работника на пустоту
+
     $name_checked = '';
     $age_checked = '';
     $salary_checked = '';
@@ -8,6 +10,8 @@
         $age_checked = check_age_form_data($_POST['age']);
         $salary_checked = check_salary_form_data($_POST['salary']);
     }
+
+    //Изменение работника
 
     if (isset($_POST['submit']) && $_POST['name'] != '' && $_POST['age'] != '' && $_POST['salary'] != '') {
         change_worker($_POST['name'], $_POST['age'], $_POST['salary'], $_GET['change']);

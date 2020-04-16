@@ -1,4 +1,6 @@
 <?php
+    //Проверка полей формы создания работника на пустоту
+    
     $name_checked = '';
     $age_checked = '';
     $salary_checked = '';
@@ -9,7 +11,9 @@
         $salary_checked = check_salary_form_data($_POST['salary']);
     }
 
-    if (isset($_POST['submit']) && $_POST['name'] != '' && $_POST['age'] != '' && $_POST['salary'] != '') {
+    //Создание работника
+
+     if (isset($_POST['submit']) && $_POST['name'] != '' && $_POST['age'] != '' && $_POST['salary'] != '') {
         create_worker($_POST['name'], $_POST['age'], $_POST['salary']);
     }
 
