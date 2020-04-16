@@ -1,4 +1,6 @@
 <?php
+    //Функции, проверяющие поля формы на пустоту
+    
     function check_name_form_data($name){
         if (empty($name)) {
             $name_checked = 'Name is required';

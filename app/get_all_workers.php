@@ -1,4 +1,6 @@
 <?php
+    //Получение всех работников
+
     function get_all_workers() {
         global $pdo;
         $query_get = "SELECT * FROM workers";
